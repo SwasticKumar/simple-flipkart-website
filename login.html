@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Royal Enfield Website by SHANMUGAM R</title>
+    <style>
+      body {
+        background-image: url("./Assets/login.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        color: #fff;
+        font-family: "Croissant One", cursive;
+        font-family: "Dancing Script", cursive;
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+
+      .login-container {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 100px;
+      }
+
+      .login-container h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      .form-control {
+        background-color: rgba(255, 255, 255, 0.2);
+        color: #fff;
+      }
+
+      .form-control::placeholder {
+        color: #ccc;
+      }
+
+      .login-btn {
+        background-color: #007bff;
+        color: #fff;
+      }
+
+      .login-btn:hover {
+        background-color: #0056b3;
+      }
+      .nav-link:hover {
+        transform: scale(1.05); /* Increase size on hover */
+        transition: transform 0.2s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <img
+        src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/flipkart-095e08.svg"
+        alt="Logo"
+      />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse ml-2 navbar-collapse justify-content-end"
+        id="navbarNav"
+      >
+        <form class="d-flex" role="search">
+          <input
+            class="form-control me-2 mx-3"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+            style="padding-right: 20rem"
+          />
+        </form>
+        <ul class="navbar-nav">
+          <li class="nav-item active mt-2 fw-bold">
+            <a class="nav-link" href="index.html#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold mt-2" href="./index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold mt-2" href="./index.html#review"
+              >Reviews</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link fw-bold mt-2" href="./index.html#contactUs"
+              >Contact Us</a
+            >
+          </li>
+          <button class="btn btn-inline-success" type="submit">
+            <a class="nav-link fw-bold" href="./login.html">Login</a>
+          </button>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Navbar - End -->
+
+    <!-- Login Session -Start -->
+    <div style="background: radial-gradient(#efe9f4, #5078f2)">
+      <div class="container" id="login">
+        <div class="row justify-content-center">
+          <div class="col-md-4">
+            <div class="login-container" style="background-color: #2a55e5">
+              <h2>Login</h2>
+              <form>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control mb-3 bg-white text-black"
+                    placeholder="Username"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="password"
+                    class="form-control bg-white text-black"
+                    placeholder="Password"
+                    required
+                  />
+                </div>
+                <div class="text-center mt-3">
+                  <button
+                    type="submit"
+                    class="btn border-0 btn-block login-btn bg-warning"
+                  >
+                    <a
+                      class="text-decoration-none text-dark"
+                      href="./index.html"
+                      >Login</a
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Login Session -End -->
+
+      <!-- Footer -start -->
+      <footer
+        class="bg-dark text-light text-center py-3"
+        style="margin-top: 10rem"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <a
+                href="https://www.linkedin.com/in/swastic-kumar-a56910157/"
+                target="_blank"
+                class="icon-link text-white"
+              >
+                Linkedln<i class="fab fa-linkedin text-info"></i>
+              </a>
+              <a
+                href="https://github.com/SwasticKumar"
+                target="_blank"
+                class="icon-link text-white mx-3"
+              >
+                GitHub<i class="fab fa-github text-info"></i>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <p>
+                &copy; <span id="copyright-year"></span>
+                <span class="text-warning fw-bold">Swastic Kumar </span>All
+                Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <script>
+        const currentYear = new Date().getFullYear();
+        document.getElementById("copyright-year").textContent = currentYear;
+      </script>
+    </div>
+    <!-- Footer-End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
